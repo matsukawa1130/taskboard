@@ -2,7 +2,7 @@
 position: absolute;
 width: 56px;
 height: 25px;
-left: 26px;
+left: 44px;
 top: 5px;
 
 font-family: Avenir;
@@ -79,7 +79,7 @@ border:none;
 
 .password {
 position: absolute;
-width: 76px;
+width: 90 px;
 height: 25px;
 left: 26px;
 top: 253px;
@@ -275,12 +275,13 @@ background: url(app/assets/images/default-avatar2.png);
 
 .login-btn {
   position: relative;
-  width: 60px;
+  width: 120px;
   height: 60px;
-  left: 300px;
+  left: 280px;
   top: 20px;
+  padding: 10px;
 
-  background: green;
+  background: #8AC75A;
   border-radius: 4px;
   border: none;
 
@@ -625,5 +626,63 @@ color:#000000;
   }
 }
 
+.time {
+  position: absolute;
+  height: 19px;
+  left: 5%;
+  width:100%;
+  right: 0%;
+  top: calc(44% - 19px/2 + 15.5px);
+  
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  
+  color: #000000;
+  
+  mix-blend-mode: normal;
+  opacity: 0.4;
 
+}
+
+.header_back {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 10px;
+  top: 26px;
+
+}
+
+.rem-check {
+  position: absolute;
+  width: 35px;
+  height: 25px;
+  right:340px;
+  top: 420px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: gray;
+
+}
+
+.rem-msg {
+  position: absolute;
+  width: 150px;
+  height: 25px;
+  right:190px;
+  top: 425px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: gray;
+
+}
 
