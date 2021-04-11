@@ -10,8 +10,8 @@
     = f.password_field :password, autocomplete: "current-password",class:"passwordbox"
   - if devise_mapping.rememberable?
     .field
-      = f.check_box :remember_me,class:"remember"
-      = f.label :remember_me,class:"remember"
+      = f.check_box :remember_me,class:"remember",class:"rem-check"
+      = f.label :remember_me,class:"remember",class:"rem-msg"
   .actions
     = f.submit "Submit",class:"submit-btn"
 = render "devise/shared/links"

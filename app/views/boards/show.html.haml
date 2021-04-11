@@ -3,6 +3,7 @@
     = @board.title 
   %div.content
     = @board.content
+  %p.time= @board.display_created_at
   %div.dropdown
     = image_tag 'Combined Shape.png',class:'btn-png dropbtn'
     %div.dropdown-content2
