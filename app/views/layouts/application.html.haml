@@ -13,7 +13,7 @@
   %hr.style1
   - if user_signed_in?
     %div.dropdown
-      = image_tag 'default-avatar2.png',class:'png dropbtn'
+      = image_tag 'prof-avatar.png',class:'png dropbtn'
       %div.dropdown-content
         %ul
           %li
@@ -21,7 +21,7 @@
           %li 
             = link_to 'Sign up' , new_user_registration_path
   - else
-    = link_to 'ログイン' ,new_user_session_path,class:"login-btn"
+    = link_to 'Sign in' ,new_user_session_path,class:"login-btn"
   - if !current_page?(root_path)
     .back-btn
       = link_to :back do
